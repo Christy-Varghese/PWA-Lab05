@@ -1,0 +1,18 @@
+{
+    "short_name": "Notify",
+    "name": "Notification App",
+    "description": "A application for custom made Notification demo purpose.",
+    "start_url": "https://christy-varghese.github.io/PWA-Lab05/",
+    "scope": "/PWA-Lab05/" ,
+    "id": "com.github.christy-varghese.PWA",
+    "theme_color": "rgb(36, 50, 239)",
+    "background_color": "rgb(36, 50, 239)",
+    "orientation": "portrait",
+    "display": "standalone",
+    "icons":[{
+        "src": "assets/notification.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose" : "any"
+    }]
+}

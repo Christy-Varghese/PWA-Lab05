@@ -1,0 +1,19 @@
+/* Name: Christy Varghese
+Student ID: 1082636
+Course: INFO 6128
+Date: 13 Nov 2022
+Professor: Marcelo Hespanhol
+Lab 04
+Link: https://christy-varghese.github.io/Lab04/ */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
