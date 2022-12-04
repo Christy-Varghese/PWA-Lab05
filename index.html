@@ -26,6 +26,10 @@ Link: https://christy-varghese.github.io/Lab04/
    <!-- Manifest link  -->
    <link rel="manifest" href="manifest.json">
 
+     <!-- Onsen Library -->
+     <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+     <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+
    <!-- CSS link -->
    <link rel="icon" type="image/png" sizes="512x512" href="assets/notification.png">
    <link rel="stylesheet" href="css/main.css">
@@ -33,8 +37,11 @@ Link: https://christy-varghese.github.io/Lab04/
 </head>
 
 <body>
-   <h1>Hello</h1>
-   <!-- JS Link -->
+   <ons-navigator id="appNavigator" animation="fade" page="/home.html" ></ons-navigator>
+
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
    <script src="javascript/scripts.js"></script>
 
 </body>

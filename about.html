@@ -1,0 +1,52 @@
+<!-- About page -->
+<ons-page>
+    <ons-toolbar>
+        <div class="center">About</div>
+    </ons-toolbar>
+    <div class="content">
+        <div style="height: 200px; padding: 1px 0 0 0;">
+            <div class="card">
+                <h2 class="card__title">Card Title</h2>
+                <div class="card__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+            </div>
+        </div>
+        <div class="progress-bar progress-bar--material progress-bar--indeterminate">
+        </div>
+        <div class="action-sheet-mask"></div>
+        <div class="action-sheet">
+            <button class="action-sheet-button">Something interesting</button>
+            <button class="action-sheet-button">Funny Enough</button>
+            <button class="action-sheet-button action-sheet-button--destructive">Delete Label</button>
+            <button class="action-sheet-button">Cancel</button>
+        </div>
+    </div>
+    <!-- toolbar -->
+    <div class="tabbar">
+        <label class="tabbar__item">
+          <input type="radio" name="tabbar-a" onclick="onClickHome()" >
+          <button class="tabbar__button">
+            <i class="tabbar__icon ion-ios-home"></i>
+            <div class="tabbar__label">Home</div>
+          </button>
+        </label>
+      
+        <label class="tabbar__item">
+          <input type="radio" name="tabbar-a" checked="checked">
+          <button class="tabbar__button">
+            <i class="tabbar__icon ion-ios-help-circle" ></i>
+            <div class="tabbar__label">About</div>
+          </button>
+        </label>
+      
+        <label class="tabbar__item">
+          <input type="radio" name="tabbar-a" onclick="onClickContact()">
+          <button class="tabbar__button">
+            <i class="tabbar__icon ion-ios-contact"></i>
+            <div class="tabbar__label">Contact</div>
+          </button>
+        </label>
+      </div>
+    
+</ons-page>

@@ -1,0 +1,59 @@
+<!-- Home page -->
+<ons-page>
+    <ons-toolbar>
+        <div class="center">Home</div>
+    </ons-toolbar>
+    <div class="content">
+        <ul class="list">
+            <li class="list-item">
+                <div class="list-item__left">
+                    <img class="list-item__thumbnail" src="https://placekitten.com/g/40/40" alt="Cute kitten">
+                </div>
+
+                <div class="list-item__center">
+                    <div class="list-item__title">Lily</div>
+                    <div class="list-item__subtitle">321 456 8507</div>
+                </div>
+            </li>
+
+            <li class="list-item">
+                <div class="list-item__left">
+                    <img class="list-item__thumbnail" src="https://placekitten.com/g/40/40" alt="Cute kitten">
+                </div>
+
+                <div class="list-item__center">
+                    <div class="list-item__title">Molly</div>
+                    <div class="list-item__subtitle">123 457 6890</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- toolbar -->
+    <div class="tabbar">
+        <label class="tabbar__item">
+          <input type="radio" name="tabbar-a" onclick="onClickHome()"checked="checked" >
+          <button class="tabbar__button">
+            <i class="tabbar__icon ion-ios-home"></i>
+            <div class="tabbar__label">Home</div>
+          </button>
+        </label>
+      
+        <label class="tabbar__item">
+          <input type="radio" name="tabbar-a"  onclick="onClickAbout()" >
+          <button class="tabbar__button">
+            <i class="tabbar__icon ion-ios-help-circle"></i>
+            <div class="tabbar__label">About</div>
+          </button>
+        </label>
+      
+        <label class="tabbar__item">
+          <input type="radio" name="tabbar-a" onclick="onClickContact()">
+          <button class="tabbar__button">
+            <i class="tabbar__icon ion-ios-contact"></i>
+            <div class="tabbar__label">Contact</div>
+          </button>
+        </label>
+      </div>
+    
+</ons-page>

@@ -6,7 +6,7 @@ Professor: Marcelo Hespanhol
 Lab 04
 Link: https://christy-varghese.github.io/Lab04/ */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
 
 *{
     margin: 0;
@@ -15,5 +15,5 @@ Link: https://christy-varghese.github.io/Lab04/ */
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
 }

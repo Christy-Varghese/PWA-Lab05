@@ -1,4 +1,4 @@
-const cacheName = 'cacheAssets-v5.0'; // cache name must be unique
+const cacheName = 'cacheAssets-v5.1.0'; // cache name must be unique
 
 self.addEventListener('fetch', function(event) {
     event.respondWith(

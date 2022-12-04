@@ -25,3 +25,35 @@ if ('serviceWorker' in navigator) {
 } else {
     console.log('Service worker not supported.');
 }
+
+
+var appNav = document.getElementById('appNavigator');
+
+function onClickAbout() {
+  appNav.pushPage('/about.html');
+}
+
+function onClickHome() {
+    appNav.pushPage('/home.html');
+}
+
+function onClickContact() {
+    appNav.pushPage('/contact.html');
+}
+
+function saveContact(){
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var phone = document.getElementById('phone').value;
+    var data = {
+        name: name,
+        email: email,
+        phone: phone
+    };
+    console.log(data);
+    if (name == "" || email == "" || phone == "" ){
+        ons.notification.alert('Please fill all fields');
+    } else {
+        ons.notification.alert('Your contact has been sent successfully');
+    }
+}
