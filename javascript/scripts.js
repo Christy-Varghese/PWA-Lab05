@@ -30,15 +30,15 @@ if ('serviceWorker' in navigator) {
 var appNav = document.getElementById('appNavigator');
 
 function onClickAbout() {
-  appNav.pushPage('/about.html');
+  appNav.pushPage('about.html');
 }
 
 function onClickHome() {
-    appNav.pushPage('/home.html');
+    appNav.pushPage('home.html');
 }
 
 function onClickContact() {
-    appNav.pushPage('/contact.html');
+    appNav.pushPage('contact.html');
 }
 
 function saveContact(){
