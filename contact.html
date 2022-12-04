@@ -1,89 +1,89 @@
 <!-- Contact page -->
 
 <ons-page>
-    <div class="toolbar">
-  <div class="toolbar__center">Navigation Bar</div>
-</div>
-    <div class="content">
-        <!-- Contact form using ons -->
-         <ons-list>
-            <ons-list-header>Personal Information</ons-list-header>
-            <ons-list-item>
-                <div class="left">
-                    <ons-icon icon="md-account-circle" size="35px" fixed-width></ons-icon>
-                </div>
-                <div class="center">
-                    <ons-input id="name" placeholder="Name" float></ons-input>
-                </div>
-            </ons-list-item>
-            <ons-list-item>
-                <div class="left">
-                    <ons-icon icon="md-phone" size="35px" fixed-width></ons-icon>
-                </div>
-                <div class="center">
-                    <ons-input id="phone" placeholder="Phone" float></ons-input>
-                </div>
-            </ons-list-item>
-            <ons-list-item>
-                <div class="left">
-                    <ons-icon icon="md-email" size="35px" fixed-width></ons-icon>
-                </div>
-                <div class="center">
-                    <ons-input id="email" placeholder="Email" float></ons-input>
-                </div>
-            </ons-list-item>
-            <ons-list-item>
-                <div class="left">
-                    <label class="checkbox">
-                        <input type="checkbox" class="checkbox__input">
-                        <div class="checkbox__checkmark"></div>
-                        Personal 
-                      </label>
-                </div>
+  <div class="toolbar">
+    <div class="toolbar__center">Contact Page</div>
+  </div>
+  <div class="content">
+    <!-- Contact form using ons -->
+    <ons-list>
+      <ons-list-header>Personal Information</ons-list-header>
+      <ons-list-item>
+        <div class="left">
+          <ons-icon icon="md-account-circle" size="35px" fixed-width></ons-icon>
+        </div>
+        <div class="center">
+          <ons-input id="name" placeholder="Name" float></ons-input>
+        </div>
+      </ons-list-item>
+      <ons-list-item>
+        <div class="left">
+          <ons-icon icon="md-phone" size="35px" fixed-width></ons-icon>
+        </div>
+        <div class="center">
+          <ons-input id="phone" placeholder="Phone" float></ons-input>
+        </div>
+      </ons-list-item>
+      <ons-list-item>
+        <div class="left">
+          <ons-icon icon="md-email" size="35px" fixed-width></ons-icon>
+        </div>
+        <div class="center">
+          <ons-input id="email" placeholder="Email" float></ons-input>
+        </div>
+      </ons-list-item>
+      <ons-list-item>
+        <div class="left">
+          <label class="checkbox">
+            <input type="checkbox" class="checkbox__input">
+            <div class="checkbox__checkmark"></div>
+            Personal
+          </label>
+        </div>
 
-                <div class="center">
-                    <label class="checkbox">
-                        <input type="checkbox" class="checkbox__input">
-                        <div class="checkbox__checkmark"></div>
-                        Business 
-                      </label>
-                </div>
-            </ons-list-item>
-          
-            <ons-list-item>
-                <div class="center">
-                    <ons-button onclick="saveContact()">Save</ons-button>
-                </div>
-            </ons-list-item>
-        </ons-list>
+        <div class="center">
+          <label class="checkbox">
+            <input type="checkbox" class="checkbox__input">
+            <div class="checkbox__checkmark"></div>
+            Business
+          </label>
+        </div>
+      </ons-list-item>
 
-    </div>
+      <ons-list-item>
+        <div class="center">
+          <ons-button onclick="saveContact()">Save</ons-button>
+        </div>
+      </ons-list-item>
+    </ons-list>
 
-    <!-- tabbar -->
-    <div class="tabbar">
-        <label class="tabbar__item">
-          <input type="radio" name="tabbar-a" onclick="onClickHome()" >
-          <button class="tabbar__button">
-            <i class="tabbar__icon ion-ios-home"></i>
-            <div class="tabbar__label">Home</div>
-          </button>
-        </label>
-      
-        <label class="tabbar__item">
-          <input type="radio" name="tabbar-a"  onclick="onClickAbout()" >
-          <button class="tabbar__button">
-            <i class="tabbar__icon ion-ios-help-circle"></i>
-            <div class="tabbar__label">About</div>
-          </button>
-        </label>
-      
-        <label class="tabbar__item">
-          <input type="radio" name="tabbar-a" onclick="onClickContact()" checked="checked">
-          <button class="tabbar__button">
-            <i class="tabbar__icon ion-ios-contact"></i>
-            <div class="tabbar__label">Contact</div>
-          </button>
-        </label>
-      </div>
-   
+  </div>
+
+  <!-- tabbar -->
+  <div class="tabbar">
+    <label class="tabbar__item">
+      <input type="radio" name="tabbar-a" onclick="onClickHome()">
+      <button class="tabbar__button">
+        <i class="tabbar__icon ion-ios-home"></i>
+        <div class="tabbar__label">Home</div>
+      </button>
+    </label>
+
+    <label class="tabbar__item">
+      <input type="radio" name="tabbar-a" onclick="onClickAbout()">
+      <button class="tabbar__button">
+        <i class="tabbar__icon ion-ios-help-circle"></i>
+        <div class="tabbar__label">About</div>
+      </button>
+    </label>
+
+    <label class="tabbar__item">
+      <input type="radio" name="tabbar-a" onclick="onClickContact()" checked="checked">
+      <button class="tabbar__button">
+        <i class="tabbar__icon ion-ios-contact"></i>
+        <div class="tabbar__label">Contact</div>
+      </button>
+    </label>
+  </div>
+
 </ons-page>
