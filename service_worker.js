@@ -30,10 +30,7 @@ self.addEventListener('install', function(event) {
             // CSS file
             'https://christy-varghese.github.io/PWA-Lab05/css/main.css',
 
-            // pages
-            'https://christy-varghese.github.io/PWA-Lab05/home.html',
-            'https://christy-varghese.github.io/PWA-Lab05/about.html',
-            'https://christy-varghese.github.io/PWA-Lab05/contact.html',
+            
         ]);
     }).catch((err) => {
         console.log('something went wrong', err);
